@@ -1,0 +1,516 @@
+body{
+	background-color:#444;
+}
+
+#main-container {
+	width: 1000px;
+	height: auto;
+	background: #ebebeb;
+	margin: 0 auto 30px;
+}
+
+header{
+	background-color:#1a6fb6;
+	width:960px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:20px 20px 20px;
+	color:white;
+	font-size: 25px;
+	font-family:sans-serif;
+	
+}
+
+
+#main-pic{
+	background:url(main-image.jpg) no-repeat;
+	width:1000px;
+	height:389px;
+	margin:0px;
+	padding:0px;
+}
+
+a{
+	color:white;
+	text-decoration: none;
+
+
+}
+li{
+	display:inline-block;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+
+
+nav ul{
+	text-decoration: none;
+	text-align:center;
+	margin:0px;
+	}
+
+nav ul li{
+	padding:30px;
+	}
+
+	nav ul li:hover{
+		background-color:#124e7f;
+	}
+
+nav{
+	background-color:#1a6fb6;
+	margin:0px;
+	width:1000px;
+	padding:0px;
+	}
+	
+	.button1 > a > img{
+		width:400px;
+		float:right;
+		padding:10px 10px;
+	}
+
+	.button2 > a > img{
+		width:400px;
+		float:right;
+		padding:10px 10px;
+		clear:both;
+	}
+
+.welcome > img{
+	color:black;
+	padding:15px 15px;
+	width:550px;
+}
+.text-box > p{
+	color:black;
+	padding:15px;
+}
+
+#second-image{
+	background:url(second-main.jpg);
+	width:1000px;
+	height:369px;
+	margin-left: auto;
+	margin-right: auto;
+	padding:0px;
+}
+.flight-header{
+	color:black;
+	padding:20px 20px;
+}
+#stunt-pic > a > img{
+	width:455px;
+	padding:10px 10px 10px;
+	margin:5px 10px 5px;
+	box-shadow:5px 5px 10px;
+	color: black;
+}
+
+#pilot-pic > img{
+	width:455px;
+	padding:10px 10px 10px;
+	margin:5px 10px 5px;
+	box-shadow:5px 5px 10px;
+	color: black;
+}
+ .copter{
+ 	width:945px;
+ 	padding:15px 15px 15px;
+ 	margin:10px 10px 10px;
+ 	box-shadow:5px 5px 10px;
+ 	color:black;
+ }
+
+
+ .section1{
+ 	padding:10px 10px;
+ 	margin:20px 10px 10px 10px;
+ 	color:black;
+ 	background-color:#ffffff;
+ 	box-shadow:5px 5px 5px;
+ }
+
+ .section2{
+ 	padding:10px 10px;
+ 	margin:10px 10px 10px 10px;
+ 	color:black;
+ 	background-color:#ffffff;
+ 	box-shadow:5px 5px 5px;
+ }
+
+ .section3{
+ 	padding:10px 10px;
+ 	margin:10px 10px 10px 10px;
+ 	color:black;
+ 	background-color:#ffffff;
+ 	box-shadow:5px 5px 5px;
+ }
+
+ .section4{
+ 	padding:10px 10px;
+ 	margin:10px 10px 10px 10px;
+ 	color:black;
+ 	background-color:#ffffff;
+ 	box-shadow:5px 5px 5px;
+ }
+
+ .section5{
+ 	padding:10px 10px;
+ 	margin:10px 10px 10px 10px;
+ 	color:black;
+ 	background-color:#ffffff;
+ 	box-shadow:5px 5px 5px;
+ }
+
+ article{
+ 	color:black;
+ 	padding:0px 10px;
+ 	margin:5px 5px;
+ }
+
+main{
+ 	background-color:#d1d0d0;
+ 	padding:5px 5px 5px;
+ 	}
+
+ .price1 > a > img{
+ 	width:350px;
+ 	float:right;
+ 	margin:10px 10px 10px;
+ }
+.price1:hover > a > img{
+ 	box-shadow:5px 5px 10px;
+ 	color:black;
+}
+
+.price2 > a > img{
+ 	width:350px;
+ 	float:right;
+ 	margin:10px 10px 10px;
+ }
+
+ .price2:hover > a > img{
+ 	box-shadow:5px 5px 10px;
+ 	color:black;
+}
+
+ .price3 > a > img{
+ 	width:350px;
+ 	float:right;
+ 	margin:10px 10px 10px;
+ }
+
+ .price3:hover > a > img{
+ 	box-shadow:5px 5px 10px;
+ 	color:black;
+}
+
+ .price4 > a >  img{
+ 	width:350px;
+ 	float:right;
+ 	margin:10px 10px 10px;
+ }
+
+ .price4:hover > a > img{
+ 	box-shadow:5px 5px 10px;
+ 	color:black;
+}
+
+ .price5 > a >  img{
+ 	width:350px;
+ 	float:right;
+ 	margin:10px 10px 10px;
+ }
+
+ .price5:hover > a > img{
+ 	box-shadow:5px 5px 10px;
+ 	color:black;
+}
+
+.pull-left > a{
+	text-align:center;
+	padding:20px;
+	font-family: sans-serif;
+}
+
+.gallery1{
+	color:black;
+	padding:20px 20px 20px;
+}
+
+.pic{
+	width:292px;
+	padding:5px 5px 5px;
+	margin:5px 5px 10px;
+	border:8px solid #d1d0d0;
+}
+.pic1{
+	width:292px;
+	padding:5px 5px 5px;
+	margin:5px 5px 10px;
+	border:8px solid #d1d0d0;
+}
+.pic2{
+	width:292px;
+	padding:5px 5px 5px;
+	margin:5px 5px 10px;
+	border:8px solid #d1d0d0;
+}
+.pic3{
+	width:292px;
+	padding:5px 5px 5px;
+	margin:5px 5px 10px;
+	border:8px solid #d1d0d0;
+}
+.pic4{
+	width:292px;
+	padding:5px 5px 5px;
+	margin:5px 5px 10px;
+	border:8px solid #d1d0d0;
+}
+.pic5{
+	width:292px;
+	padding:5px 5px 5px;
+	margin:5px 5px 10px;
+	border:8px solid #d1d0d0;
+}
+.pic6{
+	width:292px;
+	padding:5px 5px 5px;
+	margin:5px 5px 10px;
+	border:8px solid #d1d0d0;
+}
+.pic7{
+	width:292px;
+	padding:5px 5px 5px;
+	margin:5px 5px 10px;
+	border:8px solid #d1d0d0;
+}
+.pic8{
+	width:292px;
+	padding:5px 5px 5px;
+	margin:5px 5px 10px;
+	border:8px solid #d1d0d0;
+}
+.video{
+	color:black;
+	padding:20px 20px;
+}
+.video2 > iframe{
+	padding:5px 5px 5px;
+	margin:5px 5px 5px;
+	border:8px solid #d1d0d0;
+}
+.book-header{
+	padding: 20px 20px;
+}
+
+#form{
+	width:600px;
+	color:black;
+	padding:10px 10px;
+	margin:10px 10px;
+}
+
+.contact{
+	padding-left:20px;
+	margin:20px 20px;
+}
+.location{
+	float:right;
+	border:10px solid #d1d0d0;
+	padding:10px 10px 10px;
+	margin:20px 20px 20px;
+}
+
+.form{
+	color:black;
+	padding: 20px 20px;
+	margin:5px 5px;
+	font-weight: 20px;
+}
+
+#form > form > input{
+	border:4px solid #d1d0d0;
+}
+#form > form > textarea{
+	width:370px;
+	height:130px;
+	padding:10px;
+
+}
+
+#invalid_1{
+		color:red;
+	}
+
+	#invalid_2{
+		color:red;	
+	}
+
+	#invalid_3{
+		color:red;
+	}
+
+	.address{
+		margin-left:80px;
+	}
+
+footer{
+	background-color:#1a6fb6;
+	width:960px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:40px 20px 40px;
+	color:white;
+}
+
+/*This is the booking page code */
+
+.tour_box {
+	background: #fff;
+	width: 940px;
+	height: 300px;
+	border: 1px solid #b9b9b9;
+	margin: 30px auto;
+
+}
+
+.t_box_right_col {
+	width: 589px;
+	height: auto;
+	float: left;
+	padding: 15px;
+	font-family: 'Lato';
+	font-size: 15px;
+}
+
+.t_box_left_col {
+	width: 349px;
+	height: 300px;
+	float: right;
+	padding: 0px;
+	margin: 0;
+	
+}
+
+.t_box_left_col img{
+	display: block;
+
+}
+
+.t_box_right_col h2 {
+	margin: 0;
+	padding: 0 0 10px 0; 
+}
+
+
+
+
+.tours_booknow_button {
+	width: 349px;
+	line-height: 64px;
+	height: 65px;
+	background: green;
+	color: white;
+	text-align: center;
+	font-family: 'Lato';
+	font-size: 22px;
+	background-image: -o-linear-gradient(bottom, #07BF04 0%, #177E00 86%);
+	background-image: -moz-linear-gradient(bottom, #07BF04 0%, #177E00 86%);
+	background-image: -webkit-linear-gradient(bottom, #07BF04 0%, #177E00 86%);
+	background-image: -ms-linear-gradient(bottom, #07BF04 0%, #177E00 86%);
+	background-image: linear-gradient(to bottom, #07BF04 0%, #177E00 86%);
+	border: none;
+
+
+}
+
+.tours_booknow_button a {
+
+	color: white;
+	text-decoration: none;
+}
+
+
+#contact_form {
+	width: 600px;
+	height: auto;
+	padding: 20px;
+	font-family: 'Lato';
+	font-size: 15px;
+	margin: 20px auto 20px;
+	background: #fff;
+	border: 5px solid #fff;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+}
+
+#contact_form2 {
+	width: 500px;
+	height: auto;
+	padding: 20px;
+	font-family: 'Lato';
+	font-size: 15px;
+
+}
+
+#contact_form2 h2 {
+	padding: 0;
+	margin: 0 0 20px 0;
+}
+
+#contact_form2 label {
+	width: 130px;
+	display: inline-block;
+	
+}
+
+
+#contact_form2 input[type="text"] {
+	
+	width: 320px;
+	display: inline-block;
+	padding: 5px;
+	
+}
+
+#contact_form2 textarea{
+
+	padding: 5px;
+	width: 100%;
+	height: 250px;
+}
+
+
+#contact_form h2 {
+	padding: 0;
+	margin: 0 0 20px 0;
+}
+
+#contact_form label {
+	width: 130px;
+	display: inline-block;
+	
+}
+
+#contact_form label.message {
+	width: 500px;
+	display: inline-block;
+	
+}
+
+#contact_form input[type="text"] {
+	
+	width: 320px;
+	display: inline-block;
+	padding: 5px;
+	
+}
+
+#contact_form textarea{
+
+	padding: 5px;
+	width: 100%;
+	height: 250px;
+}

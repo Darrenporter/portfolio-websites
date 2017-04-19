@@ -1,0 +1,167 @@
+<!doctype html>
+<html>
+<head>
+<title>Scenic Flights</title>
+<link rel="stylesheet" type="text/css" href="flight.css" />
+</head>
+<body>
+	<div id="main-container">
+	<header>0800 564 564
+	</header>
+	<div id="main-pic"></div>
+	<nav>
+		<ul>
+			<li><a href="flight.html">Home</a></li>
+				<li><a href="tours.html">Tours & Prices</a></li>
+				<li><a href="pilots.html">Meet our Pilots</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="book-now.html">Book Now</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+		</ul>
+	</nav>
+
+	<div class="book-header">
+		<center><a href="book-now.html"><img src="book-title.png" alt="Book Now"></a></center>
+	</div>
+
+	<div class="Form">
+
+<form id="contact_form" action="send.html" method="post" onsubmit="return checkBookingPageForm()">
+								<h2>Make a booking:</h2>
+
+								<label for="fullName">Full Name:*</label> <input type="text" id="fullName" required="required" onblur="checkFullName()"><br><br>
+								
+								<span id="fullNameError" class="error"></span>
+
+								<label for="phoneNumber">Phone Number:*</label> <input type="text" id="phoneNumber" required="required" onblur="checkPhoneNumber()"><br><br>
+								<span id="phoneNumberError" class="error"></span>
+							
+								<label for="email">Email Address:*</label> <input type="text" id="email" required="required" onblur="checkEmail()"><br><br>
+								<span id="emailError" class="error"></span>
+								
+								<label for="country">Home Country*</label> <input type="text" id="country" required="required" onblur="checkCountry()"><br><br>
+								
+								<span id="countryError" class="error"></span>
+								
+								<h2>Tour Details:</h2>
+
+								<label for="tour">Tour:*</label> 
+									<select class="tour_options" id="tour" onblur="getTour()" onchange="totalPrice(); checkCharter()">
+										
+										<option value="pleaseselect">-- Please Select --</option>
+										<optgroup label="Scenic Flights (Depart/return Queenstown airport)">
+										<option value="299">Queenstown - 1 hour - $299pp</option>
+										<option value="399">Franz Josef - 2 hours - $399pp</option>
+										<option value="299">Wanaka - 1 hour - $299pp </option>
+										</optgroup>
+									
+										<optgroup label="Scenic Flights (Depart/return Wanaka airport)">
+										<option value="299">Wanaka - 1 hour - $299pp </option>
+										<option value="299">Queenstown - 1 hour - $299pp</option>
+										<option value="399">Franz Josef - 2 hours - $399pp</option>
+										</optgroup>
+										
+										<optgroup label="Gliding Flight (Depart/return Queenstown airport)">
+										<option value="1200">Queenstown - 1 hour (3 hours recommended) - $1200pp</option>									
+										</optgroup>
+										
+										<optgroup label="Gliding Flight (Depart/return Wanaka airport)">
+										<option value="1200">Wanaka - 1 hour (3 hours recommended) - $1200pp</option>									
+										</optgroup>
+														
+										<optgroup label="Stunt Flying (Depart/return Queenstown airport)">
+										<option value="399">Queenstown - 1 hour - $399pp</option>
+										</optgroup>
+															
+										<optgroup label="Stunt Flying (Depart/return Wanaka airport)">
+										<option value="399">Wanaka - 1 hour - $399pp</option>
+										</optgroup>
+										
+										<optgroup label="Helicopter Flights (Depart/return Queenstown airport)">
+										<option value="399">Queenstown - 1 hour - $399pp</option>
+										<option value="399">Wanka - 1 hour - $399pp</option>
+										<option value="699">Franz Josef - 1 hour - $699pp</option>									
+										</optgroup>
+										
+										<optgroup label="Helicopter Flights (Depart/return Wanaka airport)">
+										<option value="399">Wanka - 1 hour - $399pp</option>
+										<option value="399">Queenstown - 1 hour - $399pp</option>
+										<option value="699">Franz Josef - 1 hour - $699pp</option>									
+										</optgroup>
+										
+										<optgroup label="Charter & Custom Flights:">
+										<option value="charter">Please select this option and send us a detailed message with the details of the trip</option>
+										</optgroup>
+
+									</select><br><br>
+
+					<div id="second_options">
+
+								<span id="tourError" class="error"></span>
+								
+								<label for="people">People Travelling?*</label> 
+									<select class="tour_options_small" id="people" onblur="checkPeople()" onchange="totalPrice()">
+										<option value="pleaseselect">-- Please Select --</option>
+										<option>1</option>
+										<option>2</option>
+										<option>3</option>
+										<option>4</option>
+										<option>5</option>
+										<option>6</option>
+									</select>
+								<span id="peopleError" class="error"></span>
+								
+								<label for="hours" id="label_hours">How many hours?*</label> 
+									<select class="tour_options_small" id="hours" onblur="checkHours()" onchange="totalPrice()">
+										<option value="pleaseselect">-- Please Select --</option>
+										<option>1</option>
+										<option>2</option>
+										<option>3</option>
+										<option>4</option>
+										<option>5</option>
+										<option>6</option>
+									</select>
+								<span id="hoursError" class="error"></span><br>
+
+								<!--<b>Total Cost:</b><br>
+								
+								<span id="total_price">Please select an option from each drop down box above to see the total price</span>
+					</div>-->
+								
+								<br><br>
+								
+								<label class="message" for="message">Message: (Please provide your preferred pickup date and time below)</label> 
+								
+								<br><br>
+								<textarea id="msg" required="required" onblur="checkMessage()"></textarea>
+								<span id="messageError" class="error2"></span>
+								<input type="reset" value="Reset" onclick="resetTotal()"><input type="submit" value="Send">
+
+							</form>
+						</div>
+	
+
+
+		
+											
+<footer>
+	<div class="pull-left">
+        <a href="flight.html">Home</a>
+        <a href="tours.html">Tour & Prices</a>
+        <a href="book-now.html">Book Now</a>
+        <a href="contact.html">Contact</a>
+      </div>
+</div>
+	
+</footer>
+
+
+
+
+
+
+
+
+	</body>
+
+</html>
