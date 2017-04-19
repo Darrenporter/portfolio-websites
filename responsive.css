@@ -1,0 +1,246 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+	background:url(wood-back.jpg);
+}
+header{
+	background:url(pic-wheat2.jpg);
+	width:100%;
+	padding:40px 0px;
+	color:white;
+	text-align:center;
+}
+
+.video > iframe{
+	box-shadow: 3px 3px 10px;
+	padding:10px 10px;
+	width:45%;
+	}
+
+.history{
+	width:100%;
+	text-align:center;
+	font-size:50px;
+}
+
+
+nav ul{
+	background:#444;
+	color:white;
+	overflow:hidden;
+	padding:0px;
+	text-align:center;
+	margin:0px;
+	box-shadow:inset 0px 6px 6px #999;
+	-webkit-transition: max-height 0.8s;
+	-ms-transition: max-height 0.8s;
+	-moz-transition: max-height 0.8s;
+	-o-transition: max-height 0.8s;
+	transition: max-height 0.8s;
+}
+
+.wheat > img{
+	width:960px;
+	padding:0px 100px;
+}
+.logo > img{
+	width:40%;
+	padding: 0px;
+}
+
+.bread > img{
+	width:60%;
+	margin-left: 18%;
+	}
+
+#gordan > img{
+	width:80%;
+	padding:0px 40px;
+}
+
+a{
+	text-decoration: none;
+	color:white;
+}
+
+nav ul li{
+	display:inline-block;
+	padding:20px;
+}
+nav ul li:hover{
+	background:#999;
+}
+
+section{
+	margin:0px auto;
+	padding:20px;
+	line-height:1.5em;
+	font-size:0.9em;
+	width:75%;
+	clear:both;
+}
+button{
+	background: linear-gradient(to bottom, rgba(243,226,199,1) 0%,rgba(193,158,103,1) 50%,rgba(182,141,76,1) 51%,rgba(233,212,179,1) 100%)
+}
+.video-head{
+	text-align:center;
+}
+
+.our-range > a > img{
+	margin:80px 15px 15px 20px;
+	box-shadow: 3px 3px 15px #000;
+	width:300px;
+	height:200px;
+	border-radius: 10px;
+	float:left
+}
+.info:hover > center > a > img{
+	box-shadow:5px 5px 10px;
+}
+
+.see-our:hover > a > img{
+	box-shadow:5px 5px 10px;
+}
+
+p{
+	width:500px;
+	border:10px solid black;
+	word-wrap: break-word;
+}
+
+.band1 > center > img{
+	width:400px;
+}
+.week > img{
+	width:35%;
+	float:right;
+	box-shadow: 3px 3px 10px;
+	padding:10px 10px 10px 10px;
+	margin:10px;
+}
+.location > iframe{
+	width:45%;
+	float:right;
+	box-shadow: 3px 3px 10px;
+	padding:10px 10px;
+}
+footer{
+	background:#444;
+	width:100%;
+	margin:0px;
+	padding:20px 0px;
+	color:white;
+	box-shadow:inset 0px 6px 6px #999;
+	}
+
+.handle{
+	padding:15px 10px;
+	width:100%;
+	text-align:left;
+	box-sizing: border-box;
+	cursor:pointer;
+	background:#777;
+	display:none;
+	color:white;
+}
+#chef > img{
+	margin:5px 10px 5px;
+	float:right;
+	width:400px;
+	box-shadow: 3px 3px 10px;
+	padding:10px 10px 10px 10px;
+}
+
+img{
+	width:300px;
+}
+.contact{
+	margin-left: 10%;
+}
+
+@media screen and (max-width: 720px){
+	nav ul{
+		max-height: 0px;
+	}
+	.showing{
+		max-height: 20em;
+	}
+	nav ul li{
+		text-align:left;
+		padding: 15px;
+		width:100%;
+		box-sizing: border-box;
+		}
+	.logo > img{
+	width:100%;
+	padding: 0px;
+}
+.band1 > center > img{
+	width:100%;
+	margin-left: 0px;
+	}
+	.handle{
+		display:block;
+		box-shadow:inset 0px 6px 6px 6px #999;
+	}
+	.bread > img{
+	width:100%;
+	margin-left: 0px;
+	}
+	.video > iframe{
+	box-shadow: 3px 3px 10px;
+	padding:10px 10px;
+	width:100%;
+	}
+	.our-range > a > img{
+	margin:80px 15px 15px 20px;
+	box-shadow: 3px 3px 15px #000;
+	width:100%;
+	height:50%;
+	border-radius: 10px;
+	float:left
+}
+#chef > img{
+	margin:5px 10px 5px;
+	float:right;
+	width:100%;
+	box-shadow: 3px 3px 10px;
+	padding:10px 10px 10px 10px;
+}
+.see-our > a > img{
+	width:100%;
+}
+.info > center > a > img{
+	width:100%;
+}
+.week > img{
+	width:100%;
+}
+
+	#menu{
+		float:right;
+		width:20px;
+		height:24px;
+		background: linear-gradient(#fff,#ddd);
+		border-radius:2px;
+		padding:2px 5px;
+		cursor:pointer;
+	}
+
+	}
+	#menu > div{
+	width:20px;
+	height:4px;
+	background: #333; 
+	margin: 3px 0px;
+}
+#invalid_1{
+	color:red;
+}
+#invalid_2{
+	color:red;
+}
+#invalid_3{
+	color:red;
+}

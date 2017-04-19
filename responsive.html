@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>Responsive</title>
+<link rel="stylesheet" type="text/css" href="responsive.css" />
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.0.min.js"></script>
+</head>
+
+<body>
+	<header>
+		<div class="logo">
+		<img src="josef-logo1.png">
+	</div>
+	</header>
+	<nav>
+		<ul>
+			<a href="responsive.html"><li>Home</li></a>
+			<a href="about.html"><li>About</li></a>
+			<a href="our-range.html"><li>Our Range</li></a>
+			<a href="history.html"><li>History</li></a>
+			<a href="bread-of-the-week.html"><li>Bread Of The Week</li></a>
+			<a href="contact-us.html"><li>Contact Us</li></a>
+		</ul>
+		<div class="handle">Menu<div id="menu">
+		<div></div>
+		<div></div>
+		<div></div></div>
+	</nav>
+	<section>
+
+		<div class="bread">
+		<img src="best1.png" alt="Breads of josef" title="The best bread in town">
+	</div><br>
+
+		Welcome to Breads of Josef in Mount Eden Village. Our Award winning bakery is in full view of the cafe, so while you dine with us, you can experience how Josef, Nigel and Thomas make their European style breads from scratch.<br><br>
+
+Breads of Josef is a German trained baker, pastry chef and chef, with over twenty years of baking experience in a wide range of establishments, from fine dining to first class catering, in Germany and New Zealand.<br><br>
+
+Josef real passion is for artisan bread. We make a range of traditional European breads from French Pain au Levain to German Vollkorn using only traditional techniques and natural ingredients. Long fermentation and skilful handling at every stage is the way we produce loaves with authentic European flavour, texture and crust. We do not use any flavourings, additives, preservatives or bread improvers.
+
+The result is a unique range of breads, which won 7 Awards at the New Zealand Bakery of the Year Award in 2012. Josef breads are the equal of any you will find in the true artisan bakeries of Europe.
+
+You can watch Josef and his bakers work, just the other side of the glass wall, but if you want to ask any questions or take a closer look feel free to, they love talking about their bread and are happy to give you pointers if you are a keen baker yourself.<br><br>
+<div class="see-our">
+<a href="contact-us.html"><img src="subscribe.png"></a></div><br><br>
+	
+	<div class="info">
+		<center><a href="about.html"><img src="information-band.png"></a></center>
+	</div><br>
+
+	<div class="video">
+	<iframe width="560" height="315" src="http://www.youtube.com/embed/iCeFe1iEfos" frameborder="0" allowfullscreen=""></iframe>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/sOjSp5_YiF0" frameborder="0" allowfullscreen=""></iframe>
+</div>
+</div><br><br><br><br>
+
+	</section>
+
+	<footer>
+		Designed by Darren Porter
+	</footer>
+
+	<script>
+	$('.handle').on('click',function(){
+		$('nav ul').toggleClass('showing');
+	});
+	$('#menu').on('click',function(){
+		$('nav ul').toggleClass('showing');
+	});
+	$('#menu > div').on('click',function(){
+		$('nav ul').toggleClass('showing');
+	});
+	</script>
+
+</body>
+
+
+</html>

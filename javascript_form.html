@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+
+	#invalid_1{
+		color:red;
+		position:absolute;
+		top:0px;
+		left:220px;
+	}
+
+	#invalid_2{
+		color:red;
+		position:absolute;
+		top:40px;
+		left:220px;
+	}
+
+	#invalid_3{
+		color:red;
+		position:absolute;
+		top:90px;
+		left:280px;
+	}
+
+	</style>
+	
+	<script type="text/javascript">
+	var invalid = 0;
+	//Username
+	function validation() {
+		invalid = 0;
+		if(document.getElementById("name").value ==""){
+			document.getElementById("invalid_1").innerHTML ="You must type in a name";
+			invalid += 1;
+		}
+		else{
+			document.getElementById("invalid_1").innerHTML ="";
+		}
+
+		//Email
+		if((document.getElementById("email").value.indexOf("@")) == -1){
+			document.getElementById("invalid_2").innerHTML = "Invalid Email";
+			invalid += 1;
+		}
+		else{
+			document.getElementById("invalid_2").innerHTML ="";
+		}
+
+		//Message
+		if(document.getElementById("message").value ==""){
+			document.getElementById("invalid_3").innerHTML ="Please enter your message.";
+			invalid += 1;
+		}
+			else{
+			document.getElementById("invalid_3").innerHTML ="";
+		}
+
+		if(invalid != 0){
+			return false;
+		}
+		else{
+			return true;
+		}
+
+	}
+
+	</script>
+
+</head>
+<body>
+
+<div id="form">
+<form name="survey" action="lumix@hotmail.co.nz" method="post" onSubmit="return validation()">
+			Name :<input type="text" id="name"/><br><br>
+			Email :<input type="email" id="email"/><br><br>
+			Message :<textarea name="message" id="message"></textarea>
+			<br><br>
+			<input type="Submit" value="Submit"/><input type="reset"/><br>
+	</form>
+
+	<p id="invalid_1"></p>
+	<p id="invalid_2"></p>
+	<p id="invalid_3"></p>	
+
+
+</body>
+
+</html>
